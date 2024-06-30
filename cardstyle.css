@@ -6,7 +6,7 @@
 body{
     display: flex;
     justify-content: center;
-    background-image: url(./image-background.png);
+    background-image: url(./media/image-background.png);
     background-size: cover;
     background-repeat: no-repeat; 
 }
@@ -66,20 +66,20 @@ body{
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .feutures1{
-  background-image: url(./image-card1.png);
+  background-image: url(./media/image-card1.png);
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-bottom-left-radius: 20px;
 }
 .feutures2{
-  background-image: url(./image-card2.png);
+  background-image: url(./media/image-card2.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-right-radius: 20px;
 }
 .feutures3{
-    background-image: url(./image-card3.png);
+    background-image: url(./media/image-card3.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom-right-radius: 20px;
