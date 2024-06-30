@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(./image-background.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.card-back{
+    width:900px;
+    height: 450px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.card1,.card2{
+    width: 300px;
+    height: auto;
+}
+.price1,.price2{
+    width: auto;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.price1{
+    border-top-left-radius: 20px; 
+}
+.price2{
+    border-top-right-radius: 20px; 
+}
+
+
+.price1 h1,.price2 h1,.price3{
+    padding-top: 30px;
+    font-size: 45px;
+    font-family: poppins;
+}
+.price3{
+    font-size: 23px;
+    width: auto;
+    height: 150px;
+    background-color:  white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.price3 p,.price1 p, .price2 p{
+    font-size: 17px;
+    font-family: poppins;
+}
+.feutures1,.feutures2{
+   width: auto;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.feutures1{
+  background-image: url(./image-card1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom-left-radius: 20px;
+}
+.feutures2{
+  background-image: url(./image-card2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 20px;
+}
+.feutures3{
+    background-image: url(./image-card3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 20px;
+  }
+.content1{
+    padding-top: 30px;
+}
+.content1 h1{
+   text-align: center;
+   padding-bottom: 20px;
+   font-family: poppins;
+}
+.content1 p{
+    padding-bottom: 8px;
+}
+.content1 i{
+    padding-right: 7px;
+}
+.choose-btn1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.choose-btn{
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: white;
+    color: blueviolet;
+    font-weight: bold;
+}
+.choose-btn:focus{
+   border: 2px solid  blueviolet;
+}
+.card-3{
+    width: 320px;
+    height: 480px;
+    position: absolute;
+    top: 138px;
+}
+.head{
+    position: absolute;
+    font-family: poppins;
+    top: 40px;
+}
